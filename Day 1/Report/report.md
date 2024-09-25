@@ -79,41 +79,41 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 
 <div class="note">
 
-### Note
-Password Storage:
-The password field in the /etc/passwd file is set to an x. This indicates that user passwords are stored in a separate file, known as the shadow file located at /etc/shadow. Only specific programs, such as the login program, have access to this file. This change was made for security reasons, as older versions of Linux stored encrypted passwords in /etc/passwd, making them vulnerable to attacks.
-``` bash
-╭─ 19:51:51 |  24 Sep, Tuesday |   in  
-╰─❯ sudo cat /etc/shadow
-[sudo] password for taha:
-root:*:19683:0:99999:7:::
-daemon:*:19683:0:99999:7:::
-bin:*:19683:0:99999:7:::
-sys:*:19683:0:99999:7:::
-sync:*:19683:0:99999:7:::
-games:*:19683:0:99999:7:::
-man:*:19683:0:99999:7:::
-lp:*:19683:0:99999:7:::
-mail:*:19683:0:99999:7:::
-news:*:19683:0:99999:7:::
-uucp:*:19683:0:99999:7:::
-proxy:*:19683:0:99999:7:::
-www-data:*:19683:0:99999:7:::
-backup:*:19683:0:99999:7:::
-list:*:19683:0:99999:7:::
-irc:*:19683:0:99999:7:::
-gnats:*:19683:0:99999:7:::
-nobody:*:19683:0:99999:7:::
-systemd-network:*:19683:0:99999:7:::
-systemd-resolve:*:19683:0:99999:7:::
-messagebus:*:19683:0:99999:7:::
-systemd-timesync:*:19683:0:99999:7:::
-syslog:*:19683:0:99999:7:::
-_apt:*:19683:0:99999:7:::
-uuidd:*:19683:0:99999:7:::
-tcpdump:*:19683:0:99999:7:::
-taha:$y$j9T$p2l.TfGpI.A2woJiQiUTv1$0.pzUvZGvwypSjtocmfRZioNpoaq4W9i0qEXYsE8b2D:19854:0:99999:7:::
-```
+> **NOTE**: Password Storage  
+> The password field in the `/etc/passwd` file is set to an `x`. This indicates that user passwords are stored in a separate file, known as the shadow file located at `/etc/shadow`. Only specific programs, such as the login program, have access to this file. This change was made for security reasons, as older versions of Linux stored encrypted passwords in `/etc/passwd`, making them vulnerable to attacks.
+> ```bash
+> ╭─ 19:51:51 |  24 Sep, Tuesday |   in  
+> ╰─❯ sudo cat /etc/shadow
+> [sudo] password for taha:
+> root:*:19683:0:99999:7:::
+> daemon:*:19683:0:99999:7:::
+> bin:*:19683:0:99999:7:::
+> sys:*:19683:0:99999:7:::
+> sync:*:19683:0:99999:7:::
+> games:*:19683:0:99999:7:::
+> man:*:19683:0:99999:7:::
+> lp:*:19683:0:99999:7:::
+> mail:*:19683:0:99999:7:::
+> news:*:19683:0:99999:7:::
+> uucp:*:19683:0:99999:7:::
+> proxy:*:19683:0:99999:7:::
+> www-data:*:19683:0:99999:7:::
+> backup:*:19683:0:99999:7:::
+> list:*:19683:0:99999:7:::
+> irc:*:19683:0:99999:7:::
+> gnats:*:19683:0:99999:7:::
+> nobody:*:19683:0:99999:7:::
+> systemd-network:*:19683:0:99999:7:::
+> systemd-resolve:*:19683:0:99999:7:::
+> messagebus:*:19683:0:99999:7:::
+> systemd-timesync:*:19683:0:99999:7:::
+> syslog:*:19683:0:99999:7:::
+> _apt:*:19683:0:99999:7:::
+> uuidd:*:19683:0:99999:7:::
+> tcpdump:*:19683:0:99999:7:::
+> taha:$y$j9T$p2l.TfGpI.A2woJiQiUTv1$0.pzUvZGvwypSjtocmfRZioNpoaq4W9i0qEXYsE8b2D:19854:0:99999:7:::
+> ```
+
 </div>
 
 
