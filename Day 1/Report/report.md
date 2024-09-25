@@ -1,5 +1,5 @@
 # :blue_book:  <i class="fas fa-book" style="color: rgb(200,200,200);"></i> Report
----
+ 
 
 
 <div class="question">
@@ -60,7 +60,6 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 | **Home Directory**      | **/home/taha** (the path to the user's home directory)                                         | 🏡                            |
 | **Default Shell**       | **/bin/bash** (the default command shell for the user)                                         | 💻                            |
 
----
 
 
 > [!NOTE]
@@ -111,8 +110,9 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 6. **Home Directory**: **/home/taha** (the path to the user's home directory)  
 7. **Default Shell**: **/bin/bash** (the default command shell for the user)  
 
---- 
+ 
 
+--- 
 
 <div class="question">
 
@@ -123,7 +123,7 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 
 </div>
 
----
+
 ### Answer 
 
 #### Difference Between `cat` and `more` Commands
@@ -163,6 +163,8 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 | **`.`**                         | Repeat the previous command executed.                                      |
 
 
+---
+
 
 <div class="question">
 
@@ -174,7 +176,7 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 </div>
 
 ### Answer 
----
+
 
 ### Difference Between `rm` and `rmdir`
 
@@ -250,6 +252,7 @@ touch dir1/dir11/file1
   **Resulting Hierarchy**:  
   After the above command, your home directory will no longer contain `dir1`, and only `mydocs` and `mycv` will remain.
 
+---
 
 <div class="question">
 
@@ -276,8 +279,10 @@ touch dir1/dir11/file1
 
 ![alt text](image-2.png)
 
+---
 
 <div class="question">
+
 
 ## Question 6 ❓
 
@@ -298,6 +303,7 @@ touch dir1/dir11/file1
 ![alt text](image-3.png)
 
 
+---
 
 <div class="question">
 
@@ -326,8 +332,11 @@ touch dir1/dir11/file1
   ```bash
   mydocs/mycv
   ```
+  
+---
 
 <div class="question">
+  
 
 ## Question 8 ❓
 
@@ -366,6 +375,9 @@ touch dir1/dir11/file1
   ```
 
 
+---
+
+
 <div class="question">
 
 ## Question 9 ❓
@@ -387,6 +399,7 @@ touch dir1/dir11/file1
 - **Explanation:**  
   This command uses `head` with the `-n` option to display the first 4 lines of the `/etc/passwd` file.
 
+---
 
 <div class="question">
 
@@ -408,6 +421,8 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 ![alt text](Animation-10.gif)
 <div class="question">
 
+---
+
 ## Question 11 ❓
 
 **Question:** Display the number of user accounts in the system.
@@ -425,6 +440,9 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 
 - **Explanation:**  
   This command counts the number of lines in the `/etc/passwd` file, which corresponds to the number of user accounts on the system. Each line in this file represents a user account. 
+
+
+---
 
 
 <div class="question">
@@ -461,6 +479,9 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 
 
 <div class="question">
+
+
+---
 
 ## Question 12 ❓
 
@@ -503,6 +524,10 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 ![alt text](Animation-12.gif)
 
 <div class="question">
+
+
+---
+
 
 ## Question 13 ❓
 
@@ -564,6 +589,7 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 
 
 
+---
 
 <div class="question">
 
@@ -588,6 +614,8 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 - **Explanation:**  
   This command displays the man page for the `passwd` file, which is found in section 5 of the manual. This section typically contains information about file formats and conventions. 
 
+
+---
 
 <div class="question">
 
@@ -648,8 +676,10 @@ sysadmin@localhost:~$
 - **Explanation:**  
   This command performs the same function as `man -k passwd`, providing a list of commands that include `passwd` in their man page descriptions.
 
-إليك الرد على السؤال 16 بنفس تنسيق الأسئلة السابقة:
 
+  ---
+
+إليك الرد على السؤال 16 بنفس تنسيق الأسئلة السابق
 <div class="question">
 
 ## Question 16 ❓
@@ -714,6 +744,8 @@ sysadmin@localhost:~$
 ![alt text](image-11.png)
 
 إليك كيفية فتح ملف `mycv` باستخدام أمر `vi` وتوضيح الخطوات المطلوبة:
+---
+
 
 <div class="question">
 
