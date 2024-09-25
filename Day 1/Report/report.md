@@ -550,17 +550,17 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 > ![alt text](image-10.png)
 >
 > as exmple i use `passwd` 
-| Section Number | Area Contents                                         |
-|----------------|------------------------------------------------------|
-| 1              | Executable programs or shell commands                |
-| 2              | System calls                                         |
-| 3              | Library calls                                        |
-| 4              | Special files                                        |
-| 5              | File formats and conventions                          |
-| 6              | Games                                                |
-| 7              | Overviews, conventions, and miscellaneous            |
-| 8              | Super user and system administration commands        |
-| 9              | Kernel routines                                      |
+> | Section Number | Area Contents                                         |
+> |----------------|------------------------------------------------------|
+> | 1              | Executable programs or shell commands                |
+> | 2              | System calls                                         |
+> | 3              | Library calls                                        |
+> | 4              | Special files                                        |
+> | 5              | File formats and conventions                          |
+> | 6              | Games                                                |
+> | 7              | Overviews, conventions, and miscellaneous            |
+> | 8              | Super user and system administration commands        |
+> | 9              | Kernel routines                                      |
 
 
 
