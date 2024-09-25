@@ -7,15 +7,7 @@ padding: 10px;
     border-left:5px solid red;
     margin-bottom:10px;
 }
-.note 
-{
-     background-color: #f0f0f0;
-padding: 10px;
-    border-left:5px solid #2196F3;
-    margin-bottom:10px;
-   border-radius: 5px;
-}
-    </style>
+<style>
 
 <div class="question">
 
@@ -77,9 +69,8 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 
 ---
 
-<div class="note">
 
-> **NOTE**: Password Storage  
+> [!NOTE]
 > The password field in the `/etc/passwd` file is set to an `x`. This indicates that user passwords are stored in a separate file, known as the shadow file located at `/etc/shadow`. Only specific programs, such as the login program, have access to this file. This change was made for security reasons, as older versions of Linux stored encrypted passwords in `/etc/passwd`, making them vulnerable to attacks.
 > ```bash
 > ╭─ 19:51:51 |  24 Sep, Tuesday |   in  
@@ -114,7 +105,6 @@ taha:x:1000:1000:,10101,99999999999,999999999:/home/taha:/bin/bash
 > taha:$y$j9T$p2l.TfGpI.A2woJiQiUTv1$0.pzUvZGvwypSjtocmfRZioNpoaq4W9i0qEXYsE8b2D:19854:0:99999:7:::
 > ```
 
-</div>
 
 
 
@@ -553,25 +543,20 @@ This command will display the last 7 lines of the `/etc/passwd` file like `head`
 - **Explanation:**  
   This command also displays the man pages sequentially, but it uses `;` to separate the commands. The second command will execute regardless of the success of the first command.
 
-<div class="note">
-    to know which part comand belongs to use
-
-
-```bash
-whatis passwd
-
-```
-the ouput 
-```
-passwd (1ss1)   compute password hashes
-passwd (1)      change user password
-passwd (5)      the password file  
-
-
-```
-![alt text](image-10.png)
-
-as exmple i use `passwd` 
+> [!NOTE]
+> to know which part comand belongs to use
+> ```bash
+> whatis passwd
+>```
+>the ouput 
+>```
+> passwd (1ss1)   compute password hashes
+>passwd (1)      change user password
+>passwd (5)      the password file  
+>```
+> ![alt text](image-10.png)
+>
+> as exmple i use `passwd` 
 | Section Number | Area Contents                                         |
 |----------------|------------------------------------------------------|
 | 1              | Executable programs or shell commands                |
@@ -584,7 +569,6 @@ as exmple i use `passwd`
 | 8              | Super user and system administration commands        |
 | 9              | Kernel routines                                      |
 
-</div>
 
 
 
