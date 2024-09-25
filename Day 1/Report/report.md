@@ -1,13 +1,6 @@
 # :blue_book:  <i class="fas fa-book" style="color: rgb(200,200,200);"></i> Report
 ---
-<style>
-.question {
-   background-color: #e7f3fe;
-padding: 10px;
-    border-left:5px solid red;
-    margin-bottom:10px;
-}
-<style>
+
 
 <div class="question">
 
