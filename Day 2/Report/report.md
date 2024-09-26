@@ -83,6 +83,8 @@ The `umask 017` will result in the following default permissions:
 
   
 > [!IMPORTANT]
+>
+> 
 > Put the `umask 017` command in one of the following files:
 > - `$HOME/.bash_profile`  
 > - `$HOME/.bash_login`  
