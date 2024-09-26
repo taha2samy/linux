@@ -80,7 +80,7 @@ The `umask 017` will result in the following default permissions:
 
 - The symbolic method also achieves the same result by explicitly stating the desired permissions for the user, group, and others.
   
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Put the `umask 017` command in one of the following files:
 > - `$HOME/.bash_profile`  
 > - `$HOME/.bash_login`  
@@ -92,6 +92,9 @@ The `umask 017` will result in the following default permissions:
 > Additionally:
 > - `/etc/profile` is the system-wide configuration file for login shells, applied to all users.
 > - Files in `/etc/profile.d/` can also be used to set environment variables and run scripts at login for specific applications or services.
+
+
+
 
 ---
 
