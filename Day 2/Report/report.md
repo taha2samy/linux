@@ -79,6 +79,8 @@ The `umask 017` will result in the following default permissions:
    ```
 
 - The symbolic method also achieves the same result by explicitly stating the desired permissions for the user, group, and others.
+
+
   
 > [!IMPORTANT]
 > Put the `umask 017` command in one of the following files:
@@ -87,12 +89,11 @@ The `umask 017` will result in the following default permissions:
 > - `$HOME/.profile`  
 > - `$HOME/.bashrc`  
 > 
-> Note: The first three files are read in order during login. If any of these files exist, they will be executed one by one. The `$HOME/.bashrc` file is usually executed from one of these files (typically from `.bash_profile`).
+> **Note:** The first three files are read in order during login. If any of these files exist, they will be executed one by one. The `$HOME/.bashrc` file is usually executed from one of these files (typically from `.bash_profile`).
 > 
 > Additionally:
 > - `/etc/profile` is the system-wide configuration file for login shells, applied to all users.
 > - Files in `/etc/profile.d/` can also be used to set environment variables and run scripts at login for specific applications or services.
-
 
 
 
