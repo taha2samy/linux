@@ -5,6 +5,6 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,vim,bash,vscode,docker,python,jenkins,git,terraform,kubernetes,ansible" />
+    <img src="https://skillicons.dev/icons?i=linux,vim,bash,vscode" />
   </a>
 </p>
