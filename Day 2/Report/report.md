@@ -79,6 +79,7 @@ The `umask 017` will result in the following default permissions:
    ```
 
 - The symbolic method also achieves the same result by explicitly stating the desired permissions for the user, group, and others.
+  
 > ![IMPORTANT]
 > Put the `umask 017` command in one of the following files:
 > - `$HOME/.bash_profile`  
