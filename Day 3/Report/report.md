@@ -759,8 +759,9 @@ What is the difference between startup files and initialization files? State the
 - **Initialization File**: 
   - **`~/.bashrc`** (loaded after the user-specific startup file)
 
-### Important Note:
-- The **`.bashrc`** file is crucial as it runs every time a new terminal session is opened, allowing for dynamic configurations. In some systems, it may also be named **`.bash.bashrc`**.
+
+> [!TIP] 
+> The **`.bashrc`** file is crucial as it runs every time a new terminal session is opened, allowing for dynamic configurations. In some systems, it may also be named **`.bash.bashrc`**.
 
 ---
 
@@ -1014,16 +1015,23 @@ To display all processes except those owned by the current user, you can use the
    - instead of` "$(whoami)"` you can use `$USER`  the variable  
     ![alt text](image-26.png)
 
+### Question 28 ❓
+
+Kill your processes only ?
+
+**Question:** 
+
+### 📝 Answer:
 
 To kill all your processes, you can use the `pkill` command or combine `pgrep` with `kill`. Here are the methods:
 
-### Method 1: Using `pkill`
+#### Method 1: Using `pkill`
 You can simply use:
 ```bash
 pkill -u $(whoami)
 ```
 
-### Method 2: Using `pgrep` and `kill`
+#### Method 2: Using `pgrep` and `kill`
 If you prefer to see the PIDs before killing them, you can first list your processes and then kill them:
 1. List your processes:
    ```bash
